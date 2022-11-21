@@ -1,0 +1,240 @@
+import turtle
+
+# pre start section
+an = turtle.Screen()
+bob = turtle.Turtle()
+bob.pencolor("red")
+bob.pensize(4)
+an.bgcolor("black")
+bob.speed(50)
+# (under line) section
+#bob.penup()
+#bob.goto(-300,-100)
+#bob.pendown()
+#bob.pensize(6)
+#bob.forward(600)
+
+#######################################################################
+#section B 
+
+bob.penup()
+bob.goto(-320,-35)
+bob.pendown()
+bob.left(90)
+bob.forward(125)
+bob.right(90)
+bob.forward(50)
+
+
+for i in range(40):
+    bob.forward(1)
+    bob.right(1.7)
+
+for i in range(50):
+    bob.forward(1)
+    bob.right(1.8)
+
+#B_2nd_curve
+bob.right(220)
+for i in range(40):
+    bob.forward(1)
+    bob.right(1.7)
+
+for i in range(51):
+    bob.forward(1)
+    bob.right(1.85)
+
+
+
+bob.forward(15)
+bob.right(90)
+bob.forward(30)
+bob.right(90)
+bob.forward(10)
+
+for i in range(45):
+    bob.forward(0.5)
+    bob.left(4)
+
+bob.forward(10)
+
+bob.right(89)
+bob.forward(35)
+bob.right(90)
+bob.forward(5)
+for i in range(45):
+    bob.forward(0.5)
+    bob.left(4)
+bob.forward(15)
+bob.left(89)
+bob.forward(92)
+bob.right(89)
+
+bob.forward(35)
+
+bob.left(179)
+bob.penup()
+
+#######################################################################
+#section E
+
+bob.forward(180)
+bob.pendown()
+bob.left(90)
+bob.forward(30)
+bob.left(90)
+bob.forward(30)
+
+for i in range(45):
+    bob.forward(0.5)
+    bob.right(4)
+bob.forward(30)
+bob.left(90)
+bob.forward(25)
+bob.left(90)
+bob.forward(30)
+
+for i in range(45):
+    bob.forward(0.5)
+    bob.right(4)
+#bob.left(1)
+bob.forward(30)
+bob.left(89)
+bob.forward(30)
+bob.left(90)
+bob.forward(35)
+
+for i in range(65):
+    bob.left(1.39)
+    bob.forward(0.8)
+bob.forward(50)
+
+for i in range(65):
+    bob.left(1.39)
+    bob.forward(0.8)
+bob.forward(35)
+
+#######################################################################
+#section H
+bob.penup()
+bob.forward(15)
+bob.left(91)
+bob.pendown()
+bob.forward(125)
+bob.right(90)
+bob.forward(35)
+bob.right(90)
+bob.forward(45)
+bob.left(90)
+bob.forward(10)
+bob.right(91)
+bob.forward(25)
+bob.right(90)
+bob.forward(10)
+bob.left(91)
+bob.forward(55)
+bob.right(90)
+bob.forward(35)
+#h part 2
+bob.left(180)
+bob.penup()
+bob.forward(45)
+bob.pendown()
+bob.forward(40)
+bob.left(90)
+bob.forward(125)
+bob.left(90)
+bob.forward(35)
+bob.left(90)
+bob.forward(125)
+
+###############################
+bob.penup()
+bob.left(90)
+bob.forward(48)
+bob.pendown()
+bob.left(65)
+bob.forward(100)
+bob.left(115)
+bob.forward(40)
+bob.right(90)
+bob.forward(30)
+bob.right(91)
+bob.forward(90)
+bob.right(115)
+bob.forward(100)
+bob.left(115)
+bob.forward(40)
+bob.right(90)
+bob.forward(30)
+bob.right(90)
+bob.forward(90)
+
+#######################################################################
+#section A
+bob.left(180)
+bob.penup()
+bob.forward(120)
+bob.pendown()
+bob.left(91 )
+bob.forward(80)
+
+for i in range(190):
+    bob.right(0.95)
+    bob.forward(0.9)
+bob.forward(80)
+bob.right(90)
+bob.forward(40)
+bob.right(90)
+bob.forward(80)
+
+for i in range(36):
+    bob.left(5)
+    bob.forward(1)
+
+bob.forward(20)
+bob.left(90)
+bob.forward(15)
+bob.right(90)
+bob.forward(20)
+bob.right(90)
+bob.forward(15)
+bob.left(90)
+bob.forward(40)
+bob.right(90)
+bob.forward(50)
+
+bob.penup()
+bob.left(180)
+bob.forward(140)
+bob.pendown()
+
+#######################################################################
+#section D
+
+bob.left(90)
+bob.forward(125)
+bob.right(90)
+bob.forward(40)
+
+for i in range(190):
+    bob.forward(1)
+    bob.right(0.95)
+
+bob.right(90)
+bob.forward(30)
+bob.right(90)
+
+for i in range(90):
+    bob.left(2)
+    bob.forward(1)
+bob.forward(5)
+
+bob.left(90)
+bob.forward(90)
+bob.right(90)
+bob.forward(40)
+
+
+#end sectio
+turtle.mainloop()
